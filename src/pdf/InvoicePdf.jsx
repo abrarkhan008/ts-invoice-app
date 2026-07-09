@@ -66,6 +66,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     borderLeft: `2pt solid ${NAVY}`,
     borderRight: `2pt solid ${NAVY}`,
+    borderBottom: "1pt solid #000000",
   },
   clientBox: {
     width: "50%",
@@ -316,14 +317,6 @@ export default function InvoicePdf({
             </View>
           </View>
         </View>
-
-        {/* RED LINE */}
-        <View
-          style={{
-            borderTop: "1pt solid black",
-            marginTop: -1,
-          }}
-        />
 
         {/* ITEMS TABLE */}
         <View style={styles.table}>
