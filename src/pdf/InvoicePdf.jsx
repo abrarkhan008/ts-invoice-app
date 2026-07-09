@@ -87,6 +87,7 @@ const styles = StyleSheet.create({
   metaCellBordered: { borderRight: `0.5pt solid ${NAVY}` },
   metaLabel: { fontWeight: "bold", marginRight: 4 },
   table: {
+    borderTop: `2pt solid ${NAVY}`,
     borderLeft: `2pt solid ${NAVY}`,
     borderRight: `2pt solid ${NAVY}`,
   },
