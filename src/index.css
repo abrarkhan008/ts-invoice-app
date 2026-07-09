@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  background: #e8ebf2;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #invoice-print-area, #invoice-print-area * {
+    visibility: visible;
+  }
+  #invoice-print-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+input,
+span,
+div,
+p {
+  font-variant-numeric: tabular-nums;
+}
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #invoice-print-area,
+  #invoice-print-area * {
+    visibility: visible;
+  }
+  #invoice-print-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  @page {
+    size: A4;
+    margin: 10mm;
+  }
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
