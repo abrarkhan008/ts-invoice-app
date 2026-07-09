@@ -317,6 +317,14 @@ export default function InvoicePdf({
           </View>
         </View>
 
+        {/* RED LINE */}
+        <View
+          style={{
+            borderTop: "1pt solid black",
+            marginTop: -1,
+          }}
+        />
+
         {/* ITEMS TABLE */}
         <View style={styles.table}>
           <View style={styles.tHeadRow}>
