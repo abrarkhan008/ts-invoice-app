@@ -269,9 +269,8 @@ export default function InvoicePdf({
             304 & 316 Grade
           </Text>
           <Text style={styles.addrLine}>
-            # 26, Nandini Layout, Outer Ring Road, Kanteerava Studio Circle,
-            Sonal Garments Road, Near Saneshwara Temple, Bangalore - 560 096.
-            E-mail : tsfabrication@gmail.com
+            #32, 1st A Main Road, Parimala Nagar, Nandini layout - 560096 ,
+            Bangalore - 560 096. E-mail : tsfabrication@gmail.com
           </Text>
         </View>
 
