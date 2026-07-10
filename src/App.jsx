@@ -488,7 +488,6 @@ const newItem = () => ({
   amount: "",
 });
 
-
 const lineInput =
   "bg-transparent outline-none border-b border-dotted border-invoice-navy/50 focus:border-invoice-navy w-full text-[13px] sm:text-sm px-0.5 py-0.5 text-invoice-navy placeholder:text-invoice-navy/30";
 
@@ -497,7 +496,7 @@ const metaValueInput =
 
 export default function App() {
   const printRef = useRef(null);
-   const [busy, setBusy] = useState(false);
+  const [busy, setBusy] = useState(false);
 
   const [client, setClient] = useState({ name: "", addr1: "", addr2: "" });
   const [meta, setMeta] = useState({
@@ -642,7 +641,7 @@ export default function App() {
             <img
               src="/logo.png"
               alt="TS Fabrication logo"
-              className="w-14 h-14 sm:w-20 sm:h-20 shrink-0 object-contain"
+              className="w-28 h-28 sm:w-40 sm:h-36 shrink-0 object-contain"
             />
             <div className="flex-1 text-center">
               <p className="text-[9px] sm:text-xs uppercase tracking-widest font-bold underline">
@@ -663,11 +662,9 @@ export default function App() {
             Power Coatings Railings, Fabrication with 304 &amp; 316 Grade
           </p>
           <p className="text-center text-[9px] sm:text-[11px] mt-1 leading-tight">
-            # 26, Nandini Layout, Outer Ring Road, Kanteerava Studio Circle,
-            Sonal Garments Road,
+            #32, 1st A Main Road, Parimala Nagar, Nandini layout - 560096
             <br />
-            Near Saneshwara Temple, Bangalore - 560 096. E-mail :
-            tsfabrication@gmail.com
+            Bangalore - 560 096. E-mail : tsfabrication@gmail.com
           </p>
         </div>
 

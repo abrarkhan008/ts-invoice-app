@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     marginTop: 6,
   },
-  logo: { width: 55, height: 55, marginRight: 10 },
+  logo: { width: 100, height: 100, marginRight: 10 },
   titleWrap: { flex: 1, textAlign: "center" },
   taxInvoice: {
     fontSize: 9,
@@ -261,7 +261,7 @@ export default function InvoicePdf({
               <Text style={styles.taxInvoice}>TAX INVOICE</Text>
               <Text style={styles.companyName}>TS FABRICATION</Text>
             </View>
-            <View style={{ width: 55 }} />
+            <View style={{ width: 90 }} />
           </View>
           <Text style={styles.mfgLine}>
             Mfg. of : All kinds of Brass Railings, Antique Brass Railings and
