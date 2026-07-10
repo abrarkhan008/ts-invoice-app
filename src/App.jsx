@@ -546,14 +546,7 @@ export default function App() {
 
   const fileName = `Invoice-${meta.invoiceNo || "TS"}.pdf`;
 
-  // const handleDownload = async () => {
-  //   setBusy(true);
-  //   try {
-  //     await downloadInvoicePdf(printRef.current, fileName);
-  //   } finally {
-  //     setBusy(false);
-  //   }
-  // };
+  //=
 
   // const handleShare = async () => {
   //   setBusy(true);
